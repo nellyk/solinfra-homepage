@@ -1,0 +1,21 @@
+name: stager
+on: 
+  push:
+    branches:
+    - develop
+
+jobs:
+  build:
+    name: gatsby-stage
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: npm-ci
+      run: npm ci
+    - name: build
+      run: npm run build
+    - name: stage
+      run: cd public && npx surge . staging.solinfra.io
+      env:
+        SURGE_LOGIN: surgebot@solinfra.io
+        SURGE_TOKEN: ${{ secrets.SURGEBOT_TOKEN }}
