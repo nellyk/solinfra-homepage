@@ -100,6 +100,11 @@ module.exports = {
       url: 'https://twitter.com/solinfra'
     },
     {
+      icon: 'fa-medium',
+      name: 'Medium',
+      url: 'https://medium.com/@solinfra'
+    },
+    {
       icon: 'fa-github',
       name: 'Github',
       url: 'https://github.com/solinfra'
