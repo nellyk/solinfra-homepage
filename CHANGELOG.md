@@ -1,4 +1,10 @@
 # CHANGELOG
+## [1.2.0](https://github.com/D-Nice/solinfra-homepage/compare/v1.1.0...v1.2.0) (2019-12-30)
+
+
+### Features
+
+* add medium link ([20b6b99](https://github.com/D-Nice/solinfra-homepage/commit/20b6b99db99fd1a60a865973b4e0ed8d61d2d0d3))
 
 # [1.1.0](https://github.com/D-Nice/solinfra-homepage/compare/v1.0.0...v1.1.0) (2019-12-17)
 
@@ -42,6 +48,3 @@
 * **eslint:** apply rules to root with ignores ([fabc797](https://github.com/D-Nice/solinfra-homepage/commit/fabc797590cab018358838e0512565419b900a6c))
 * **optimize:** add gatsby img to projects ([f152161](https://github.com/D-Nice/solinfra-homepage/commit/f1521618c06a436dc70827acee80d6e0a1715086))
 * **ui:** project section into component ([c56be72](https://github.com/D-Nice/solinfra-homepage/commit/c56be729f09a7dee5428c4286b4e444bc1818fd7))
-
-
-
