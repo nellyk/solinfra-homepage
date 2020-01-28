@@ -9,6 +9,12 @@
 ![Lighthouse PWA badge](assets/badges/lighthouse/lighthouse_pwa.svg)
 ![Lighthouse SEO badge](assets/badges/lighthouse/lighthouse_seo.svg)
 
+![auditor](https://github.com/D-Nice/solinfra-homepage/workflows/auditor/badge.svg)
+![linter](https://github.com/D-Nice/solinfra-homepage/workflows/linter/badge.svg)
+![profiler-local](https://github.com/D-Nice/solinfra-homepage/workflows/profiler-local/badge.svg)
+![builder](https://github.com/D-Nice/solinfra-homepage/workflows/builder/badge.svg)
+![deployer](https://github.com/D-Nice/solinfra-homepage/workflows/deployer/badge.svg)
+
 Gatsby.js V2 Solinfra homepage
 
 ## Install
