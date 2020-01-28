@@ -1,4 +1,11 @@
 # CHANGELOG
+### [1.2.1](https://github.com/D-Nice/solinfra-homepage/compare/v1.2.0...v1.2.1) (2020-01-28)
+
+
+### Bug Fixes
+
+* **deps:** update node-sass for security ([7bf4178](https://github.com/D-Nice/solinfra-homepage/commit/7bf41780fd7b3c37b3b3b64192450ec863300bc3))
+
 ## [1.2.0](https://github.com/D-Nice/solinfra-homepage/compare/v1.1.0...v1.2.0) (2019-12-30)
 
 

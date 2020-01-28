@@ -1,7 +1,7 @@
 {
   "name": "solinfra-gatsby-homepage",
   "private": true,
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Gatsby.js V2 solinfra homepage based on Grayscale template",
   "repository": {
     "type": "git",
