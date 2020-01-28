@@ -48,7 +48,7 @@
     "minify": "npm run minify:img",
     "minify:img": "scripts/minify-img.js",
     "release:changelog": "touch CHANGELOG.md && echo # CHANGELOG > CHANGELOG.md && echo >> CHANGELOG.md && conventional-changelog -p angular -r 0 -si CHANGELOG.md",
-    "release": "npx standard-version@next --header \"# CHANGELOG\" && echo Remember to sign tag with 'git tag -s v...'"
+    "release": "npx standard-version@next --header \"# CHANGELOG\" && echo \"Remember to sign commit & tag with 'git commit --amend --signoff' & 'git tag -sf v...'\""
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
