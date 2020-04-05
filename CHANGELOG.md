@@ -1,4 +1,12 @@
 # CHANGELOG
+
+### [1.2.2](https://github.com/D-Nice/solinfra-homepage/compare/v1.2.1...v1.2.2) (2020-04-05)
+
+
+### Bug Fixes
+
+* **audit:** update lockfile with vulns fixed ([b7da153](https://github.com/D-Nice/solinfra-homepage/commit/b7da153ae9f3efe3761726dae624b9a1dcb93eda))
+
 ### [1.2.1](https://github.com/D-Nice/solinfra-homepage/compare/v1.2.0...v1.2.1) (2020-01-28)
 
 

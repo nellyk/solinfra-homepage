@@ -1,7 +1,7 @@
 {
   "name": "solinfra-gatsby-homepage",
   "private": true,
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Gatsby.js V2 solinfra homepage based on Grayscale template",
   "repository": {
     "type": "git",
@@ -48,7 +48,7 @@
     "minify": "npm run minify:img",
     "minify:img": "scripts/minify-img.js",
     "release:changelog": "touch CHANGELOG.md && echo # CHANGELOG > CHANGELOG.md && echo >> CHANGELOG.md && conventional-changelog -p angular -r 0 -si CHANGELOG.md",
-    "release": "npx standard-version@next --header \"# CHANGELOG\" && echo \"Remember to sign commit & tag with 'git commit --amend --signoff' & 'git tag -sf v...'\""
+    "release": ".github/release.sh"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
